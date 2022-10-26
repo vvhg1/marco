@@ -2702,7 +2702,7 @@ meta_window_tile (MetaWindow *window)
     {
       MetaRectangle *saved_rect = NULL;
       saved_rect = &window->saved_rect;
-      meta_window_maximize_internal (window, META_MAXIMIZE_VERTICAL, saved_rect);
+      meta_window_maximize_internal (window, META_MAXIMIZE_HORIZONTAL, saved_rect);
     }
   else if (window->tile_mode == META_TILE_BOTTOM_RIGHT ||
            window->tile_mode == META_TILE_BOTTOM_LEFT ||
